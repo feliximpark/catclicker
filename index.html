@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Clicker</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<div class="list">
+    <ul id="kittenlist" class="kittenlist"></ul>
+</div>
+
+<div class="kittenbox" id="kittenbox">
+    <img src="http://placehold.it/800x400" class="kittenpic" id="kittenpic" value="">
+    <h1 id ="scores" class="scores"></h1>
+    <h1 id ="names" class="names"></h1>
+
+</div>
+<div class="admin">
+    <button id ="button">
+        <p>Admin</p>
+    </button>
+    <form action=""></form>
+</div>
+<div class="adminform hide" id="adminform">
+    <form>
+        <label for="catname"></label>
+        <input type="text" name="catname" id="catname" value=""><br>
+        <input type="text" name="caturl" id="caturl" value=""><br>
+        <input type="text" name="catcount" id="catcount" value=""><br><br>
+
+    </form>
+    <button id="savebutton"><p>Save</p></button>
+    <button id="cancelbutton"><p>Cancel</p></button>
+</div>
+<script src=script/script.js></script>
+</body>
+</html>

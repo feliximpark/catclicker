@@ -1,0 +1,93 @@
+
+.kittenbox {
+    width: 50%;
+    float: right;
+}
+.
+.names {
+
+}
+
+.kittenpic {
+    width: 100%;
+    position: relative;
+}
+
+.scores {
+    position: absolute;
+    top: 10px;
+    left:90%;
+    color: white;
+}
+
+.names {
+    position: absolute;
+    top: 10px;
+    left: 60%;
+    color: white;
+
+}
+
+.list {
+    position: absolute;
+    width: 200px;
+    margin: 0;
+}
+
+.kittenlist {
+    width: 100%;
+}
+
+#button {
+    color: red;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+.adminform {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+/*.kittenbox {
+    width: calc(50% - 50px);
+    position: relative;
+    float:left;
+    margin-right: 20px;
+    z-index: 1;
+}
+.names {
+    position: absolute;
+    color: white;
+    top: 5%;
+    left: 70%;
+    z-index: 2;
+}
+
+.fonts {
+    color: white;
+}
+.counter {
+    top: 7%;
+    left: 10%;
+    position: absolute;
+    z-index: 1;
+}
+#counter2 {
+
+}
+.cat {
+width: 100%;
+
+}
+
+#cat {
+    float: left;
+
+}
+
+*/
